@@ -1,0 +1,34 @@
+{
+  "name": "deepfreeze-spi/resource-provider",
+  "description": "Resource Provider Interface",
+  "type": "library",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "messaging",
+    "translation"
+  ],
+  "require": {
+    "deepfreeze-spi/resource-provider": "dev-master@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6.0",
+    "mockery/mockery": "~0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeepFreezeSpi\\Intl\\Resource\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DeepFreezeSpiTest\\Intl\\Resource\\": "test/src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "/home/ckoch200/src/deepfreeze-spi/"
+    }
+  ]
+}
