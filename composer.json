@@ -9,7 +9,6 @@
     "translation"
   ],
   "require": {
-    "deepfreeze-spi/resource-provider": "dev-master@dev"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.6.0",
@@ -25,10 +24,10 @@
       "DeepFreezeSpiTest\\Intl\\Resource\\": "test/src"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "/home/ckoch200/src/deepfreeze-spi/"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev",
+      "dev-develop": "0.2-dev"
     }
-  ]
+  }
 }
